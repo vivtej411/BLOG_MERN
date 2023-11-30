@@ -69,9 +69,3 @@ To run the MERN Blog Project locally, follow these steps:
 - **public**: Contains static assets for the client.
 - **src**: Contains React components and application logic.
 - **uploads**: Contains images that are posted in the Blog. Create uploads folder before running project if it doesn't exist in api/ path.
-
-## Contributing
-
-Contributions are welcome! If you find a bug or have an idea for an improvement, feel free to submit an issue or pull request. Please follow the coding guidelines and consider adding tests.
-
-> > > > > > > 9dfa39c (Initial Commit)
