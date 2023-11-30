@@ -1,7 +1,3 @@
-# BLOG_MERN
-
-=======
-
 # MERN Blog Project
 
 Welcome to the MERN Blog Project! This project is built using the MERN stack (MongoDB, Express, React, and Node.js) and aims to provide a basic foundation for creating and managing blog posts.
