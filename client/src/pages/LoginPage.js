@@ -16,7 +16,9 @@ export default function LoginPage() {
         headers: { "Content-Type": "application/json" },
         credentials: "include",
       });
-      if (response.ok) {
+      if (!username || !password) {
+        alert("Please enter all the fields");
+      } else if (response.ok) {
         response.json().then((userInfo) => {
           setUserInfo(userInfo);
           setRedirect(true);

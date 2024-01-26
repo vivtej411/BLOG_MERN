@@ -33,7 +33,7 @@ export default function CreatePost() {
     return <Navigate to={"/"} />;
   }
   return (
-    <form onSubmit={createNewPost}>
+    <form onSubmit={createNewPost} className="createPost">
       <input
         type="title"
         placeholder={"Title"}

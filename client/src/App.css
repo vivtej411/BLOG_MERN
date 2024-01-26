@@ -15,12 +15,16 @@ main {
   max-width: 960px;
   margin: 0 auto;
 }
+
 header {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 50px;
+
   align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #aea4a4;
 }
 header a {
   text-decoration: none;
@@ -40,7 +44,9 @@ div.post {
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 5px;
-  margin-bottom: 30px;
+  align-items: center;
+  margin: 1rem auto 1rem;
+  max-width: 960px;
   border: 2px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

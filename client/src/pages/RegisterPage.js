@@ -12,7 +12,9 @@ export default function RegisterPage() {
       body: JSON.stringify({ username, password }),
       headers: { "Content-Type": "application/json" },
     });
-    if (response.status === 200) {
+    if (!username || !password) {
+      alert("Please enter all the fields");
+    } else if (response.status === 200) {
       setRedirect(true);
       alert("registration successful");
     } else {
