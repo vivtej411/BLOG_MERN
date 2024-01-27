@@ -6,6 +6,7 @@ a {
 }
 body {
   color: #222;
+  background-color: rgba(255, 227, 190, 0.478);
 }
 img {
   max-width: 100%;
@@ -14,12 +15,12 @@ main {
   padding: 10px;
   max-width: 960px;
   margin: 0 auto;
+  z-index: -1;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   padding: 10px;
   padding-top: 20px;
@@ -29,6 +30,9 @@ header {
 header a {
   text-decoration: none;
   color: inherit;
+}
+header a:hover {
+  color: rgb(255, 255, 255);
 }
 header a.logo {
   font-weight: bold;
@@ -61,7 +65,6 @@ div.post div.image {
   width: auto;
   height: auto;
   max-width: 300px;
-  max-height: 300px;
 }
 div.post div.texts h2 {
   margin: 0;
@@ -147,9 +150,12 @@ div.post-page div.author {
   font-size: 0.7rem;
   font-weight: bold;
 }
+div.content2 {
+  background-color: white;
+}
 div.content p {
   line-height: 1.7rem;
-  margin: 30px 0;
+  margin: auto;
 }
 div.content li {
   margin-bottom: 10px;
