@@ -164,4 +164,6 @@ app.delete("/post/:id", async (req, res) => {
   }
 });
 
-app.listen(4000);
+app.listen(4000, () => {
+  console.log("Server running on PORT 4000");
+});
